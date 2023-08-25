@@ -3,3 +3,8 @@
 @import './base/common.css';
 @import './layout/header.css';
 @import './layout/hero.css';
+@import './layout/advantages.css';
+@import './layout/about.css';
+@import './layout/team.css';
+@import './layout/clients.css';
+@import './layout/footer.css';

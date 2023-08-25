@@ -1,0 +1,226 @@
+/* MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--hero-background);
+  }
+
+  .footer-logo-wrap {
+    text-align: center;
+  }
+
+  .footer-logo {
+    display: inline-block;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    margin-bottom: 16px;
+  }
+
+  .footer-logo-element {
+    color: var(--light-background);
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+  }
+
+  .footer-text {
+    text-align: left;
+    margin: 0 auto;
+    width: 268px;
+    margin-bottom: 72px;
+  }
+
+  .footer-social-text {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .footer-social-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+
+  .footer-social-item {
+    height: 40px;
+    width: 40px;
+  }
+  .footer-social-text {
+    margin-bottom: 16px;
+    color: var(--white-background);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+  .footer-social-link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    border-radius: 50%;
+  }
+
+  .footer-social-icon {
+    fill: var(--light-background);
+  }
+}
+
+/* TABLET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width: 1158px) {
+  /* .footer {
+  background-color: var(--hero-background);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo-wrap {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: var(--accent);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  margin-bottom: 16px;
+}
+.footer-logo-element {
+  color: var(--light-background);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+}
+.footer-text {
+  color: var(--light-background);
+  max-width: 264px;
+}
+
+.footer-social-wrap {
+  margin-right: 80px;
+}
+
+.footer-social-text {
+  margin-bottom: 16px;
+  color: var(--white-background);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.list {
+}
+.footer-social-item {
+  height: 40px;
+  width: 40px;
+}
+.footer-social-link {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent);
+  border-radius: 50%;
+  transition: background-color var(--animation);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--success-state);
+}
+.link {
+}
+
+.footer-social-icon {
+  fill: var(--light-background);
+}
+
+.form-wrap {
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--white-background);
+}
+
+.footer-form-name {
+}
+
+.footer-form-input {
+  padding-left: 16px;
+  width: 264px;
+  height: 40px;
+  color: var(--white-background);
+  background-color: var(--hero-background);
+  border-radius: 4px;
+  border: 1px solid var(--white-background);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  background-color: transparent;
+}
+
+.footer-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  color: var(--white-background);
+  background-color: var(--accent);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--active-state);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: var(--active-state);
+}
+
+.footer-form-btn-icon {
+  margin-left: 16px;
+  fill: currentColor;
+} */
+}

@@ -1,0 +1,99 @@
+/* MOBILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 767px) {
+  .advantages {
+    padding-top: 96px;
+    /* padding-bottom: 96px; */
+  }
+  .advantages-icon-wrap {
+    display: none;
+  }
+
+  .advantages-list-item {
+    margin-bottom: 72px;
+  }
+
+  .advantages-item-title {
+    margin-bottom: 8px;
+    color: var(--hero-background);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .advantages-item-text {
+    font-weight: 500;
+  }
+}
+
+/* TABLET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .advantages {
+    padding-top: 96px;
+    /* padding-bottom: 96px; */
+  }
+  .advantages-icon-wrap {
+    display: none;
+  }
+  .advantages-list {
+    display: flex;
+    row-gap: 72px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+  .advantages-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .advantages-item-title {
+    margin-bottom: 8px;
+    color: var(--hero-background);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .advantages-item-text {
+    font-weight: 500;
+  }
+}
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width: 1158px) {
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantages-title {
+    color: var(--shadows);
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+  }
+
+  .advantages-list {
+    display: flex;
+    gap: 24px;
+  }
+  .advantages-icon-wrap {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: var(--light-background);
+  }
+  .advantages-list-icon {
+  }
+
+  .advantages-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .advantages-item-title {
+    color: var(--shadows);
+    margin-bottom: 8px;
+  }
+  .advantages-item-text {
+  }
+}
