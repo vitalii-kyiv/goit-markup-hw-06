@@ -88,7 +88,8 @@
 
   .footer-form-input {
     margin-bottom: 16px;
-    min-width: 396px;
+    padding-left: 16px;
+    min-width: 288px;
     height: 40px;
     color: var(--white-background);
     background-color: var(--hero-background);
@@ -135,7 +136,7 @@
     align-items: baseline;
     column-gap: 24px;
     row-gap: 72px;
-    margin-left: 92px;
+    padding-left: 92px;
   }
   .footer-logo-wrap {
   }

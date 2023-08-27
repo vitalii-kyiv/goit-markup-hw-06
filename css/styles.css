@@ -49,57 +49,10 @@
 
 /* <!-- !!!CLIENTS!!! ---------------------------------------------------------------------------> */
 
-/* .clients {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.container {
-}
-.clients-title {
-  text-align: center;
-  margin-bottom: 72px;
-  color: var(--hero-background);
-}
-.first-title {
-}
-.clients-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-}
-.list {
-}
-.client-list-item {
-  width: 168px;
-  height: 88px;
-}
-.costumers-list-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border: 1px solid var(--help-text);
-  border-radius: 4px;
-  color: var(--help-text);
-  transition: color var(--animation), border-color var(--animation);
-}
-.costumers-list-link:focus,
-.costumers-list-link:hover {
-  color: var(--active-state);
-  border-color: var(--active-state);
-}
-
-.link {
-}
-.client-list-icon {
-  fill: currentColor;
-} */
 /* <!-- !!!FOOTER!!! ---------------------------------------------------------------------------> */
 
 /* <!-- !!!BACKDROP!! ---------------------------------------------------------------------------> */
-.backdrop {
+/* .backdrop {
   position: fixed;
   z-index: 999;
   top: 0;
@@ -108,9 +61,9 @@
   width: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--animation), visibility var(--animation);
-}
+} */
 /* <!-- !!!MODAL!! ---------------------------------------------------------------------------> */
-.modal {
+/* .modal {
   position: absolute;
   padding: 72px 24px 24px 24px;
   top: 50%;
@@ -304,7 +257,7 @@
 }
 
 .button {
-}
+} */
 /* <!-- !!!PORTFOLIO!! ---------------------------------------------------------------------------> */
 .examples {
   padding-top: 96px;

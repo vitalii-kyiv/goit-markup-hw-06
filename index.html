@@ -46,7 +46,12 @@
             </li>
           </ul>
         </nav>
-        <button class="header-menu-open-btn" type="button">
+        <button
+          class="header-menu-open-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="header-menu-open-icon" width="32" height="22">
             <use href="./images/icons.svg#icon_burger_menu"></use>
           </svg>
@@ -154,6 +159,7 @@
             <li class="about-list-item">
               <img
                 class="about-list-image"
+                srcset="./images/advantages_1@2x.jpg 2x"
                 src="./images/advantages_1.jpg"
                 alt="desktop computer"
                 width="360"
@@ -163,6 +169,7 @@
             <li class="about-list-item">
               <img
                 class="about-list-image"
+                srcset="./images/advantages_2@2x.jpg 2x"
                 src="./images/advantages_2.jpg"
                 alt="phone screens"
                 width="360"
@@ -172,6 +179,7 @@
             <li class="about-list-item">
               <img
                 class="about-list-image"
+                srcset="./images/advantages_3@2x.jpg 2x"
                 src="./images/advantages_3.jpg"
                 alt="laptop and phone"
                 width="360"
@@ -189,6 +197,7 @@
           <ul class="team-list list">
             <li class="team-list-item">
               <img
+                srcset="./images/team_1@2x.jpg 2x"
                 class="team-list-image"
                 src="./images/team_1.jpg"
                 alt="man"
@@ -252,6 +261,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/team_2@2x.jpg 2x"
                 class="team-list-image"
                 src="./images/team_2.jpg"
                 alt="man"
@@ -316,6 +326,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-image"
+                srcset="./images/team_3@2x.jpg 2x"
                 src="./images/team_3.jpg"
                 alt="women"
                 width="264"
@@ -378,6 +389,7 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="./images/team_4@2x.jpg 2x"
                 class="team-list-image"
                 src="./images/team_4.jpg"
                 alt="man"
@@ -611,7 +623,7 @@
       </div>
     </footer>
     <!-- !!!BACKDROP!! --------------------------------------------------------------------------->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -707,6 +719,111 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <!-- !!!MOBILE-MENU!! --------------------------------------------------------------------------->
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu-close-btn js-close-menu" id="mobile-menu">
+        <svg class="modal-menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-modal_close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list list">
+          <li class="mobile-menu-list-item">
+            <a class="mobile-menu-list-link link current" href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="mobile-menu-list-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="mobile-menu-list-item">
+            <a class="mobile-menu-list-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobile-menu-address">
+        <ul class="mobile-menu-address-list list">
+          <li class="mobile-menu-address-item">
+            <a
+              class="mobile-menu-address-link link main-text"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mobile-menu-address-item">
+            <a
+              class="mobile-menu-address-link link main-text"
+              href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+
+      <div class="mobile-menu-social-wrap">
+        <ul class="mobile-menu-social-list list">
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href=""
+            >
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href=""
+            >
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href=""
+            >
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              href=""
+            >
+              <svg class="mobile-menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
